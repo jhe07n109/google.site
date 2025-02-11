@@ -6,4 +6,8 @@ a{
     text-decoration: none;
     color: #1f1f1f;
     font-size: 13px;
+    font-family: sans-serif;
+}
+.icone-produtos{
+    width: 24px;
 }
