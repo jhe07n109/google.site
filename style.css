@@ -1,13 +1,37 @@
-img{
-    height: 92px;
+*{ /*universal*/
+    margin: 0; /*margem*/
+    padding: 0; /*espaçamento interno*/
+    font-family: Arial, sans-serif;
+    font-size: 13px; /*TAMANHO DA FONTE*/
+
 }
 
-a{
-    text-decoration: none;
-    color: #1f1f1f;
-    font-size: 13px;
-    font-family: sans-serif;
+img{   /*ESTILO TAG IMAGEM*/
+    height: 92px;/*altura*/
 }
-.icone-produtos{
-    width: 24px;
+a{   /*TAG /LINK*/
+    text-decoration: none;/*tirou decoração de texto*/
+    color: #1f1f1f; /*COR DO TEXTO*/
+    font-size: 13px;/*tamanho fonte*/
+    font-family: sans-serif;/*tipo/familia DA FONTE*/
+}
+.icone-produtos{ /*CLASSE ICONE-PRODUTOS*/
+    width: 24px;/*largura*/
+    fill: #444746;/*COR preenchimento*/
+}
+footer{ /*seletor da tag FONTER/RODAPÉ*/
+    background-color: #f2f2f2; /*COR DE FUNDO*/
+}
+.botao-login{  /*classe botao-login*/
+    background-color: #1a73e8;/*cor de  fundo*/
+    color: white; /*COR DO TEXTO*/
+    padding: 13px 12px;/*espaçamento interno*/
+    font-weight: 500px; /*PESO DA FONTE*/
+    border-radius: 40px; /*RAIO DA BORDA(CURVATURA)*/
+} 
+.caixa-rodape{
+    padding: 15px 30px;
+}
+.caixa-rodape--borda{
+    border-bottom: 1px solid #dadce0; /*borda inferior*/
 }
