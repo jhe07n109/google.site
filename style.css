@@ -31,7 +31,20 @@ footer{ /*seletor da tag FONTER/RODAPÉ*/
 } 
 .caixa-rodape{
     padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
 }
 .caixa-rodape--borda{
     border-bottom: 1px solid #dadce0; /*borda inferior*/
+}
+.caixa-links{
+    display: flex;
+    gap: 30px;/*espaçamento entre os links da caixa-links*/
+}
+header{ /*cabeçalho*/
+  display:flex;
+  justify-content: flex-end; /*horizontal, a direita no espaço disponivel*/
+  align-items: center;/*itens alinhados ao centro do espaço disponivel*/
+  gap: 15px; /* espaçamento entre os elementos dentro do header*/
+  padding: 10px 14 px;/* espaçamento ao redor do header*/
 }
